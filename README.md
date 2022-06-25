@@ -1,49 +1,22 @@
-A server app built using [Shelf](https://pub.dev/packages/shelf),
-configured to enable running with [Docker](https://www.docker.com/).
+Projeto da Academia Do Flutter Vakinha_Burger
 
-This sample code handles HTTP GET requests to `/` and `/echo/<message>`
+Principais objetivos:
 
-# Running the sample
+Aplicar a utilização da API da GerenciaNet para recebimentos via PIX.
 
-## Running with the Dart SDK
+Consegui aplicar com sucesso todos os ensinamentos e aplicá-los em meu projeto.
 
-You can run the example with the [Dart SDK](https://dart.dev/get-dart)
-like this:
+Meu projeto é:
+Big_Buguer
 
-```
-$ dart run bin/server.dart
-Server listening on port 8080
-```
+Meu endereço funcional é o seguinte:
+https://bigburguer.cloudns.nz/products/
 
-And then from a second terminal:
-```
-$ curl http://0.0.0.0:8080
-Hello, World!
-$ curl http://0.0.0.0:8080/echo/I_love_Dart
-I_love_Dart
-```
+Pretendo aplicar esses ensinamentos em prjetos futuros em especial meus apps já publicados e pendentes dessa funcionalidade PIX.
 
-## Running with Docker
 
-If you have [Docker Desktop](https://www.docker.com/get-started) installed, you
-can build and run with the `docker` command:
+Flutter: 3.0.2 channel stable 
 
-```
-$ docker build . -t myserver
-$ docker run -it -p 8080:8080 myserver
-Server listening on port 8080
-```
+Dart SDK version: 2.17.5 (stable)
 
-And then from a second terminal:
-```
-$ curl http://0.0.0.0:8080
-Hello, World!
-$ curl http://0.0.0.0:8080/echo/I_love_Dart
-I_love_Dart
-```
-
-You should see the logging printed in the first terminal:
-```
-2021-05-06T15:47:04.620417  0:00:00.000158 GET     [200] /
-2021-05-06T15:47:08.392928  0:00:00.001216 GET     [200] /echo/I_love_Dart
-```
+DevTools 2.12.2
